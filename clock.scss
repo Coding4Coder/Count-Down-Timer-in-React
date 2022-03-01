@@ -1,0 +1,45 @@
+@import './Font.scss';
+@import './Variables.scss';
+
+.main-container{
+     background: rgb(100, 5, 129);
+     margin: 2rem;
+     padding: .5rem;
+     border-radius: $rounded-corner;
+     box-shadow: $box-shadow;
+
+     .card{
+        border-radius: $rounded-corner;
+        box-shadow: $box-shadow;
+        width: 27rem !important;
+        overflow: hidden;
+        margin: 10rem  auto;
+        background: #db85eb;
+     
+        section{
+            background: #9e0250;
+            padding: 1rem;
+            margin: .21rem;
+            font-family: $font-roboto;
+            display: inline-block;
+            p{
+                font-size: 2.5rem;
+                color: #fddbec;
+                padding: .5rem;
+                font-weight: 500;
+                margin: 0;
+                padding: 0;
+            }
+            span{
+                font-size: 1.5rem;
+                color: #ffd9ec;
+                padding: .5rem;
+               
+            }
+
+        }
+       
+        
+    }
+}
+   
